@@ -46,6 +46,7 @@ function initMap() {
     map = new google.maps.Map(document.querySelector('.contact__map'), {
         center: {lat: 48.733467, lng: 37.577867},
         zoom: 17,
+        scrollwheel: false,
     });
 
     var image = 'imgs/map-pointer.png';
