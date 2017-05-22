@@ -1,0 +1,165 @@
+.contact {
+  width: 100%;
+  min-height: 900px;
+  position: relative;
+  overflow: hidden; }
+  .contact__map {
+    width: 100%;
+    min-height: 900px;
+    opacity: 0.3;
+    position: relative;
+    z-index: 1; }
+  .contact__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #9f9acf; }
+  .contact__title {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    width: 250px;
+    height: 110px;
+    top: 0;
+    left: 0;
+    margin: auto;
+    bottom: 655px;
+    right: 0; }
+    .contact__title img {
+      display: block;
+      width: 44px;
+      margin: 0 auto; }
+    .contact__title h2 {
+      text-align: center;
+      color: #fff;
+      font-family: "Proxima Nova";
+      font-size: 36px;
+      font-weight: 600; }
+  .contact__form {
+    max-width: 860px;
+    height: 410px;
+    position: absolute;
+    z-index: 2;
+    top: 370px;
+    left: 0;
+    margin: auto;
+    bottom: 0;
+    right: 0; }
+    .contact__form-info {
+      display: flex;
+      justify-content: space-between;
+      width: 100%; }
+      .contact__form-info input {
+        color: #000;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+        opacity: 0.6;
+        width: 48%;
+        height: 45px;
+        border: none;
+        padding-left: 25px;
+        border-radius: 4px;
+        outline: none; }
+        .contact__form-info input:focus {
+          opacity: 1;
+          transition: all 0.2s; }
+    .contact__form textarea {
+      margin-top: 25px;
+      color: #000;
+      font-family: "Proxima Nova";
+      font-size: 18px;
+      font-weight: 300;
+      font-style: italic;
+      opacity: 0.6;
+      width: 100%;
+      height: 200px;
+      padding-top: 15px;
+      border: none;
+      padding-left: 25px;
+      border-radius: 4px;
+      outline: none; }
+      .contact__form textarea:focus {
+        opacity: 1;
+        transition: all 0.2s; }
+    .contact__form-btn {
+      display: block;
+      width: 300px;
+      height: 75px;
+      background-color: #9f9acf;
+      border-bottom: 4px solid #8783b0;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+      border-top: 4px solid transparent;
+      margin: 50px auto 0 auto;
+      border-radius: 4px;
+      color: #fff;
+      font-family: "Proxima Nova";
+      font-size: 20px;
+      font-weight: 700; }
+      .contact__form-btn:hover {
+        transform: scale(1.03);
+        border: 4px solid #8783b0;
+        transition: all 0.3s; }
+  .contact__address, .contact__tel {
+    position: absolute;
+    right: -260px;
+    top: 210px;
+    z-index: 2;
+    width: 350px;
+    height: 95px;
+    background-color: #fff; }
+    .contact__address-icon, .contact__tel-icon {
+      width: 90px;
+      display: inline-block;
+      height: 100%;
+      background-color: #9f9acf;
+      vertical-align: top;
+      padding-top: 25px;
+      padding-left: 25px; }
+    .contact__address-info, .contact__tel-info {
+      width: 255px;
+      display: inline-block;
+      height: 100%;
+      text-align: center;
+      padding-top: 12px; }
+      .contact__address-info p, .contact__tel-info p {
+        color: #000;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400; }
+    .contact__address:hover, .contact__tel:hover {
+      right: 0;
+      transition: all 0.7s ease-in-out; }
+    @media all and (max-width: 550px) {
+      .contact__address, .contact__tel {
+        right: 0;
+        width: 100%; } }
+  .contact__tel {
+    top: 305px; }
+    .contact__tel-icon {
+      padding-left: 35px;
+      padding-top: 30px; }
+    .contact__tel-info {
+      padding-top: 35px; }
+  .contact__top {
+    position: absolute;
+    right: 10%;
+    bottom: 65px;
+    z-index: 2;
+    width: 85px;
+    height: 85px;
+    background-color: rgba(159, 154, 207, 0.5);
+    padding-top: 30px;
+    padding-left: 25px; }
+    .contact__top:hover {
+      bottom: 65px;
+      transition: all 0.7s; }
+    @media all and (max-width: 750px) {
+      .contact__top {
+        right: 0; } }
+    @media all and (max-width: 550px) {
+      .contact__top {
+        display: none; } }
