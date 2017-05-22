@@ -617,7 +617,8 @@
     @media all and (max-width: 550px) {
       .contact__address, .contact__tel {
         right: 0;
-        width: 100%; } }
+        width: 100%;
+        transform: none; } }
   .contact__tel {
     top: 305px; }
     .contact__tel-icon {
