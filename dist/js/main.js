@@ -49,7 +49,7 @@ function initMap() {
         scrollwheel: false,
     });
 
-    var image = '../imgs/map-pointer.png';
+    var image = 'imgs/map-pointer.png';
     var marker = new google.maps.Marker({
         position: {lat: 48.734404, lng: 37.579732},
         map: map,
